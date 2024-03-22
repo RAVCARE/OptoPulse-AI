@@ -2,7 +2,7 @@ import { Configuration, OpenAIApi } from "openai";
 export class OpenAI {
   constructor() {
     // Create the Configuration and OpenAIApi instances
-    this.openai = new OpenAIApi(new Configuration({ apiKey:"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" }));
+    this.openai = new OpenAIApi(new Configuration({ apiKey:"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" }));
   }
   // Asynchronous function to generate text from the OpenAI API
   async transcribeText(file, model) 
